@@ -58,6 +58,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <!-- 歐盟,美國,中國  -->
 - 四個雲端軍火商
 <!-- Amazon, Google, Microsoft, Meta, Apple,甲骨文，依照我的喜好刪減 -->
+<!-- 缺 五六七，還沒想到 -->
 - 八十億人爭資源
 </v-clicks>
 
@@ -82,9 +83,7 @@ title: 注意力經濟
 </div>
 
 <style scoped>
-.quote-page {
-  background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(243,245,255,0.95));
-}
+
 
 .quote-layout {
   height: 100%;
@@ -173,7 +172,7 @@ title: zero-click-chart
 ![stack overflow decline](/img/2026-06-06-17-54-26.png)
 
 ---
-title: ai-summery] prompt injection
+title: ai-summery prompt injection
 image: /img/2026-06-06-13-29-49.png
 layout: image
 backgroundSize: contain
@@ -190,18 +189,21 @@ backgroundSize: contain
 
 <!-- 語言模型也是有個性的：討論 GPT, Gemini 對話的語氣和個性 -->
 
----
-layout: image
-backgroundSize: contain
-title: top websites from semrush.com
-image: /img/2026-06-07-12-38-56.png
----
+
 
 ---
 layout: fact
 ---
 
 ## 你認識的網際網路是什麼樣子？
+
+
+---
+layout: image
+backgroundSize: contain
+title: top websites from semrush.com
+image: /img/2026-06-07-12-38-56.png
+---
 
 ---
 image: /img/my-browser-history.png
@@ -211,6 +213,29 @@ backgroundSize: contain
 ---
 
 ---
+
+## 你了解你平常用的雲端服務嗎？
+
+- 美麗的按鈕隱藏背後的邏輯
+- 你享受免費服務，那公司到底怎麼賺錢？
+- 
+
+<!-- 講講微軟,line,Google,facebook。講難聽點就是你拉出來的屎進到馬桶後你以為會進化糞池，但其實是送到某個人家裡去供他研究 -->
+
+---
+
+## 三種策略
+- 美式
+  - 自由主義
+- 中國
+  - 整府立法擴全
+    - 中共網絡安全法
+- 歐盟
+  - 立法限制科技公司行為，提供使用者最高的選擇權限
+  - 推行自由軟體(Free software)
+    - GDPR
+---
+
 
 ## 語言模型有個性？
 
@@ -352,6 +377,59 @@ title: 公視新聞實驗室留言區
 </style>
 
 ---
+layout: section
+---
+
+## 就是因為網路沒有管制才會這樣？
+
+<v-clicks>
+
+於是中介法出現了
+
+</v-clicks>
+
+---
+
+## 長化短說數位中介服務法
+
+
+---
+image: /img/2026-06-07-22-16-12.png
+backgroundSize: contain 
+title: zero-click-chart
+layout: image
+---
+
+<!-- 網友反對中介法 -->
+
+---
+
+## 讓中介法消失就是保護言論自由？
+我們希望中介法做到的事
+
+<v-clicks depth="2" every="2">
+
+
+
+- 讓平台從「中立管道」變成「可被問責的資訊基礎設施」
+  - 平台從資訊流動中獲利，也應承擔相應的社會責任
+- 處理個人無法獨力承擔的網路風險
+  - 假訊息、誹謗、隱私侵害，不能只靠使用者自律解決
+- 打開大型平台的黑盒子
+  - 演算法推薦、廣告投放、資料使用，都需要更高透明度
+- 回應平台功能混合化的現實
+  - LINE、社群平台、影音平台，已經不只是單純通訊或內容寄放
+- 跟上國際平台治理趨勢
+  - 歐盟《數位服務法》（DSA）已從「平台免責」走向「平台責任」
+- 建立程序化、分級化的治理框架
+
+</v-clicks>
+<!--  -->
+---
+
+## 多方利害關係人模型
+
+---
 
 ## 在這個時代，我們可以怎麼做？
 
@@ -392,7 +470,10 @@ title: 沒有人
 - [We Made Top AI Models Compete in a Game of Diplomacy. Here’s Who Won.](https://every.to/p/diplomacy)
 - [Generative Adversarial Network (GAN)](https://www.geeksforgeeks.org/deep-learning/generative-adversarial-network-gan/)
 - [SITCON 2026｜走進現場的價值：在 AI 時代，我們如何走向真相？|報導者營運長 李雪莉](https://www.youtube.com/watch?v=aoGGYKLk8G8)
-
+- [奕站：服務條款太長了，就用 tosdr 看摘要吧！](https://www.iach.cc/tosdr/)
+- [2025 年的台灣，一個網路平台，上頭有多少主管機關？ ](https://moztw.org/events/service-regulator/)
+- [數位中介服務提供者的時代責任？專家學者觀點｜白廷奕](https://plainlaw.me/posts/expert-opinion-for-disa)
+- [WiWik.Blog:我同意](https://www.wiwi.blog/blog/line-privacy-policy)
 ## 閱讀更多
 [維基百科：注意力經濟](https://en.wikipedia.org/wiki/Attention_economy)
 
