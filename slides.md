@@ -77,7 +77,7 @@ title: 注意力經濟
   </div>
 
   <div class="quote-photo">
-    <img src="./public/img/2026-06-07-10-19-21.png" alt="Herbert Simon" />
+    <img src="/img/2026-06-07-10-19-21.png" alt="Herbert Simon" />
   </div>
 </div>
 
@@ -156,12 +156,12 @@ blockquote {
 
 ## 讀過用 AI 摘要嗎？
 
-![why chinese class](./public/img/2026-06-06-18-14-02.png)
+![why chinese class](/img/2026-06-06-18-14-02.png)
 
 <!-- 讓 Google AI 摘要回答為什麼要上國文課。沒什麼特別的意思，就只是因為在國文報告想衝擊大家的思想體驗 -->
 ---
 layout: image
-image: ./public/img/2026-06-06-13-50-37.png
+image: /img/2026-06-06-13-50-37.png
 backgroundSize: contain 
 title: zero-click-chart
 ---
@@ -170,11 +170,11 @@ title: zero-click-chart
 
 ## stack overflow decline
 
-![stack overflow decline](./public/img/2026-06-06-17-54-26.png)
+![stack overflow decline](/img/2026-06-06-17-54-26.png)
 
 ---
 title: ai-summery] prompt injection
-image: ./public/img/2026-06-06-13-29-49.png
+image: /img/2026-06-06-13-29-49.png
 layout: image
 backgroundSize: contain
 ---
@@ -194,17 +194,17 @@ backgroundSize: contain
 layout: image
 backgroundSize: contain
 title: top websites from semrush.com
-image: ./public/img/2026-06-07-12-38-56.png
+image: /img/2026-06-07-12-38-56.png
 ---
 
 ---
-layout:fact
+layout: fact
 ---
 
 ## 你認識的網際網路是什麼樣子？
 
 ---
-image: ./public/img/my-browser-history.png
+image: /img/my-browser-history.png
 title: 我的瀏覽紀錄分析
 layout: image
 backgroundSize: contain
@@ -216,13 +216,13 @@ backgroundSize: contain
 
 <div class="stack-gallery">
   <figure class="card left">
-    <img src="./public/img/2026-06-06-17-24-51.png" alt="chatGPT-style" />
+    <img src="/img/2026-06-06-17-24-51.png" alt="chatGPT-style" />
   </figure>
   <figure class="card center">
-    <img src="./public/img/2026-06-06-17-25-08.png" alt="gemini-style" />
+    <img src="/img/2026-06-06-17-25-08.png" alt="gemini-style" />
   </figure>
   <figure class="card right">
-    <img src="./public/img/2026-06-06-17-25-23.png" alt="clude-style" />
+    <img src="/img/2026-06-06-17-25-23.png" alt="clude-style" />
   </figure>
 </div>
 
@@ -271,7 +271,7 @@ backgroundSize: contain
 
 ## AI diplomacy
 
-![AI diplomacy](./public/img/2026-06-06-17-14-01.png)
+![AI diplomacy](/img/2026-06-06-17-14-01.png)
 
 ---
 
@@ -281,11 +281,11 @@ backgroundSize: contain
 - generativve adversarial networks gans(生成對抗式網路)
 - reinforcement learning(強化式學習)
 
-![generativve adversarial networks gans](./public/img/2026-06-06-18-00-29.png)
+![generativve adversarial networks gans](/img/2026-06-06-18-00-29.png)
 
 ---
 
-![The Meaning of Shoggoth AI Memes](./public/img/2026-06-06-17-50-35.png)
+![The Meaning of Shoggoth AI Memes](/img/2026-06-06-17-50-35.png)
 ---
 
 ## 認知上的平行世界
@@ -314,7 +314,7 @@ layout: fact
 
 ---
 layout: image
-image: ./public/img/2026-06-06-18-07-50.png
+image: /img/2026-06-06-18-07-50.png
 backgroundSize: contain
 title: Thread 網軍洗地
 ---
@@ -325,7 +325,7 @@ title: 公視新聞實驗室留言區
 
 <div class="clickable-image-slide">
   <a href="https://www.youtube.com/watch?v=xgInd9VT1oU" target="_blank" rel="noreferrer">
-    <img src="./public/img/pcomment.png" alt="p#新聞實驗室留言區" />
+    <img src="/img/pcomment.png" alt="p#新聞實驗室留言區" />
   </a>
 </div>
 
@@ -367,7 +367,7 @@ layout: two-cols
 ## 
 
 ::right::
-![g0v](./public/img/g0v-SITCON-2024.jpg)
+![g0v](/img/g0v-SITCON-2024.jpg)
 
 ---
 layout: center
