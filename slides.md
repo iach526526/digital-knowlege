@@ -180,18 +180,37 @@ url: https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-hav
 ---
 
 ---
-
+layout: two-cols-header
+---
 
 ## AI 摘要讓我更快的拿到資料？這不好嗎？
+
+::left::
 - 每個人陷入語言模型建構的平行世界
 - 作者想盡力傳達的「形式」消失了
 - 簡化閱讀、去掉脈絡 => 思考退化
 - 到底是誰在使用知識，我們還有「主體性」？
 - 公共資源消失，世界的交流停留在 2023
 
+::right::
+
+![](/img/2026-06-09-14-06-52.png)
+
 <!-- 語言模型也是有個性的：討論 GPT, Gemini 對話的語氣和個性 -->
+---
+title: Google AI 搜尋強制上路，DuckDuckGo 安裝量一週衝高 30%：讓使用者自己決定要多少 AI
+layout: image-right
+image: /img/2026-06-09-14-10-22.png
+backgroundSize: contain
+---
 
-
+## [把選擇權交給使用者](https://www.blocktempo.com/duckduckgo-installs-surge-thirty-percent-google-ai-search-force-fed-backlash/)
+- DuckDuckGo
+- kagi
+- Brave Search
+- Startpage
+- Whoogle (selfhost)
+- SearXNG (selfhost)
 
 ---
 layout: fact
@@ -231,6 +250,8 @@ backgroundSize: contain
 ---
 
 ---
+transition: slide-up
+---
 
 ## 你了解你平常用的雲端服務嗎？
 
@@ -241,17 +262,73 @@ backgroundSize: contain
 <!-- 講講微軟,line,Google,facebook。講難聽點就是你拉出來的屎進到馬桶後你以為會進化糞池，但其實是送到某個人家裡去供他研究 -->
 
 ---
+layout: quote
+transition: slide-up
+---
+
+## [一起來看看 LINE 條款](https://www.lycorp.co.jp/en/company/privacypolicy/)
+
+We automatically collect information related to when and how you used our Services... For example, when using LINE, the contents that you posted, and texts, images, videos and sounds of the messages that you sent are sent via our server.
+
+> 翻譯年糕：我們蒐集 Meta data
+---
+layout: quote
+transition: slide-up
+---
+
+## [一起來看看 LINE 條款](https://www.lycorp.co.jp/en/company/privacypolicy/)
+
+We may collect the location information of your device... Furthermore, in certain countries or regions (*2), when we provide customized contents or ads to you, such as local news near the areas where you are located, we may separately ask you to generally provide your location information and allow us to use such information.
+
+Even when you do not accept sending your location information, we may estimate your approximate location by using information **such as your IP address**.
+
+> 翻譯年糕：我們比你媽都還清楚知道你在哪，定位關了也可以透過你的 IP 反推位置
+
+---
+layout: quote
+transition: slide-up
+---
+
+## [一起來看看 LINE 條款](https://www.lycorp.co.jp/en/company/privacypolicy/)
+
+Unless you request the deletion of your account, in principle, we will retain most of your information. Once we receive your request to delete your account, we will delete your information according to Applicable Laws and internal rules after retaining such information for a given period of time.
+
+> 翻譯年糕：你用 LINE 傳送過所有東西存起來，直到永遠。照片會「過期」只是做給你看的，過期也不代表資料從伺服器上消失
+---
+layout: quote
+---
+
+## [一起來看看 LINE 條款](https://www.lycorp.co.jp/en/company/privacypolicy/)
+
+We may use tags and modules containing cookies and third-party software development kit (SDK) for fulfilling the purposes described in this Policy. With regard to your Personal Data that is processed by a third-party through a module provided by such third party, the privacy policy of such third party will apply.
+
+> 翻譯年糕： LINE 會嵌入其他公司的程式碼，這些程式碼的功能可能會用來蒐集你的資料，會怎麼使用 LINE 不會負責
+---
+title: Terms of Service; Didn’t Read
+image: /img/2026-06-09-14-36-13.png
+layout: image-link
+url: https://tosdr.org/en/about
+---
+
+---
 
 ## 三種策略
 - 美式
-  - 自由主義
+  - 自由主義，容易放任監控式資本主義
 - 中國
-  - 整府立法擴全
+  - 整府立法擴權
     - 中共網絡安全法
 - 歐盟
   - 立法限制科技公司行為，提供使用者最高的選擇權限
   - 推行自由軟體(Free software)
-    - GDPR
+  - 訂立 GDPR
+
+---
+
+## GDPR 很棒，但...
+
+- 某些公司出於惡意過度遵守規定，造成使用者不便
+- 讓隱私責任轉嫁給使用者，並讓暗黑模式（dark mode） 成為常態
 ---
 
 
@@ -365,12 +442,6 @@ backgroundSize: contain
       - 根據事實，但斷章取意，惡意誤導的訊息
 
 ---
-layout: fact
----
-
-## 網路沒有國界
-
----
 layout: image
 image: /img/2026-06-06-18-07-50.png
 backgroundSize: contain
@@ -379,36 +450,29 @@ title: Thread 網軍洗地
 
 ---
 title: 公視新聞實驗室留言區
+
+layout: two-cols-header
 ---
 
-<div class="clickable-image-slide">
-  <a href="https://www.youtube.com/watch?v=xgInd9VT1oU" target="_blank" rel="noreferrer">
-    <img src="/img/pcomment.png" alt="p#新聞實驗室留言區" />
-  </a>
+## [公視新聞實驗室留言區 AI 洗地干擾討論](https://www.youtube.com/watch?v=xgInd9VT1oU)
+::left::
+
+- 影片討論內容：領時薪比月薪高，打工當道？為何他們選擇非典型工作？
+  - 這種留言區你會加入討論嗎？
+::right::
+![AI 洗地干擾](/img/pcomment.png)
+---
+title: 我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令
+image: /img/2026-06-09-14-20-36.png
+layout: image-link
+url: 
+---
+
+<div class="absolute bottom-0 right-0 max-w-70">
+
+[![我是OO人 粉專](/img/2026-06-09-14-21-57.png)](https://taiwan.md/society/%E6%88%91%E6%98%AFOO%E4%BA%BA/)
+
 </div>
-
-<style scoped>
-.clickable-image-slide {
-  height: 100%;
-  min-height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.clickable-image-slide a {
-  display: block;
-  width: 100%;
-}
-
-.clickable-image-slide img {
-  display: block;
-  width: 100%;
-  max-height: 72vh;
-  object-fit: contain;
-}
-</style>
-
 ---
 layout: quote
 ---
@@ -417,6 +481,11 @@ layout: quote
 ——孫臏 《長短經》
 
 <!-- 不戰而屈人之兵，善之善者也 -->
+---
+layout: fact
+---
+
+## 網路沒有國界。誰想讓我們減少討論？
 ---
 layout: section
 ---
@@ -474,7 +543,7 @@ layout: image
 
 ## 在這個時代，我們可以怎麼做？
 
-- 拿回主控權
+- 大部分的使用者要清醒一點，主動要求拿回主控權
 - 建立閱聽白名單
   - RSS！！
 - 動腦思考（雖然堅信自己不會被影響的人往往是最容易被影響的）
@@ -514,6 +583,7 @@ title: 沒有人
 - [Generative Adversarial Network (GAN)](https://www.geeksforgeeks.org/deep-learning/generative-adversarial-network-gan/)
 - [SITCON 2026｜走進現場的價值：在 AI 時代，我們如何走向真相？|報導者營運長 李雪莉](https://www.youtube.com/watch?v=aoGGYKLk8G8)
 - [奕站：服務條款太長了，就用 tosdr 看摘要吧！](https://www.iach.cc/tosdr/)
+- [奕站：你有選擇自己的瀏覽器和搜尋引擎的權利](https://www.iach.cc/2026/browses/)
 - [2025 年的台灣，一個網路平台，上頭有多少主管機關？ ](https://moztw.org/events/service-regulator/)
 - [數位中介服務提供者的時代責任？專家學者觀點｜白廷奕](https://plainlaw.me/posts/expert-opinion-for-disa)
 - [WiWik.Blog:我同意](https://www.wiwi.blog/blog/line-privacy-policy)
