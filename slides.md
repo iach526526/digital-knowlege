@@ -172,10 +172,11 @@ title: zero-click-chart
 ![stack overflow decline](/img/2026-06-06-17-54-26.png)
 
 ---
-title: ai-summery prompt injection
-image: /img/2026-06-06-13-29-49.png
-layout: image
+title: 機器人造成網際網路上 HTTP 流量請求一半以上
+image: /img/2026-06-09-11-43-07.png
+layout: image-link
 backgroundSize: contain
+url: https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year
 ---
 
 ---
@@ -185,6 +186,7 @@ backgroundSize: contain
 - 每個人陷入語言模型建構的平行世界
 - 作者想盡力傳達的「形式」消失了
 - 簡化閱讀、去掉脈絡 => 思考退化
+- 到底是誰在使用知識，我們還有「主體性」？
 - 公共資源消失，世界的交流停留在 2023
 
 <!-- 語言模型也是有個性的：討論 GPT, Gemini 對話的語氣和個性 -->
@@ -204,6 +206,22 @@ backgroundSize: contain
 title: top websites from semrush.com
 image: /img/2026-06-07-12-38-56.png
 ---
+
+---
+layout: image
+backgroundSize: contain
+title: 科技公司的花園高牆
+image: /img/2026-06-09-12-05-45.png
+---
+
+---
+layout: image-link
+backgroundSize: contain
+title: Talent São Paulo 廣告 | Go Outside iphone-prison
+image: /img/2026-06-09-12-22-43.png
+url: https://www.businessinsider.com/brazil-iphone-prison-2013-4
+---
+
 
 ---
 image: /img/my-browser-history.png
@@ -311,6 +329,21 @@ backgroundSize: contain
 ---
 
 ![The Meaning of Shoggoth AI Memes](/img/2026-06-06-17-50-35.png)
+
+---
+
+## AI 會講錯話？
+
+- 大語言模型的模型檔不可能真的把所有資訊放進模型檔，他只會給出最常見、可能的回應
+- 不要問 AI 個案
+  - newyorker：[ChatGPT is a blurry jpeg of the web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web?ref=hitripod.com)
+
+---
+title: ai-summery prompt injection
+image: /img/2026-06-06-13-29-49.png
+layout: image
+backgroundSize: contain
+---
 ---
 
 ## 認知上的平行世界
@@ -377,6 +410,14 @@ title: 公視新聞實驗室留言區
 </style>
 
 ---
+layout: quote
+---
+凡伐國之道，攻心為上，攻城為下；心勝為上，兵勝為下
+
+——孫臏 《長短經》
+
+<!-- 不戰而屈人之兵，善之善者也 -->
+---
 layout: section
 ---
 
@@ -391,7 +432,7 @@ layout: section
 ---
 
 ## 長化短說數位中介服務法
-
+- 管制內容提供商=> 那論壇網友的言論怎麼管？
 
 ---
 image: /img/2026-06-07-22-16-12.png
@@ -435,8 +476,10 @@ layout: image
 
 - 拿回主控權
 - 建立閱聽白名單
+  - RSS！！
 - 動腦思考（雖然堅信自己不會被影響的人往往是最容易被影響的）
 - 用錢投票
+  - 支持你覺得有幫助的軟體、媒體、軟體服務
 
 ---
 layout: two-cols
@@ -454,7 +497,7 @@ title: 沒有人
 
 <div class="text-center text-4xl leading-tight">
   <VSwitch>
-    <template #1>沒有人會願意做這樣的付出</template>
+    <template #1>沒有人會願意做這些付出</template>
     <template #2>
       <div><s>沒有人會願意做這樣的付出</s></div>
       <h2><div>你就是沒有人！</div></h2>
