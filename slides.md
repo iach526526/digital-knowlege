@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /img/2026-06-09-21-31-21.png
 # some information about your slides (markdown enabled)
 title: 人工智慧與數位時代下的媒體與資訊素養
 info: |
@@ -70,18 +70,18 @@ layout: fact
 
 - 六十億上網人口
 
-- 七家公司決定未來
+- 七家公司左右未來
 
 - 八十億人爭資源
 </v-clicks>
 
 <!-- 
-0. 
+0. zero day
 1. 注意力經濟
 2. 水和電
 3. 歐盟,美國,中國
 4. 晶片、雲端基礎建設、模型、輿論
-5. 隱私、注意力、選擇權、公共討論、環境成本
+5. 隱私、注意力、選擇的權利、公共討論、環境
 6. 好像是 55 億的樣子 
 7. Microsoft,Nvidia,Apple, Alphabet, Amazon ,Meta, Tesla 
 8. 就...真的有這麼多人-->
@@ -236,24 +236,25 @@ backgroundSize: contain
 - SearXNG (selfhost)
 
 ---
-layout: fact
+layout: center
 ---
 
 ## 你認識的網際網路是什麼樣子？
 
-
----
-layout: image
-backgroundSize: contain
-title: top websites from semrush.com
-image: /img/2026-06-07-12-38-56.png
----
+![open web](./public/img/2026-06-09-21-36-20.png)
 
 ---
 layout: image
 backgroundSize: contain
 title: 科技公司的花園高牆
 image: /img/2026-06-09-12-05-45.png
+---
+
+---
+layout: image
+backgroundSize: contain
+title: top websites from semrush.com
+image: /img/2026-06-07-12-38-56.png
 ---
 
 ---
@@ -273,16 +274,72 @@ backgroundSize: contain
 ---
 
 ---
+layout: two-cols
+---
+
+## 網路的組成
+::right:: 
+![網際網路堆疊](/img/2026-06-09-21-05-03.png)
+
+<style>
+  img{
+width:89%  
+  }
+
+</style>
+
+---
 transition: slide-up
+layout: two-cols-header
 ---
 
 ## 你了解你平常用的雲端服務嗎？
-
-- 美麗的按鈕隱藏背後的邏輯
+::left::
+- 按鈕背後的邏輯
 - 你享受免費服務，那公司到底怎麼賺錢？
-- 
+  - 對於所有的免費服務，你就是廠商最賺錢的工具
 
-<!-- 講講微軟,line,Google,facebook。講難聽點就是你拉出來的屎進到馬桶後你以為會進化糞池，但其實是送到某個人家裡去供他研究 -->
+::right::
+![click heatmap dashboard](./public/img/2026-06-09-21-14-10.png)
+
+
+<!-- 講講微軟,line,Google,facebook 。講難聽點就是你拉出來的屎進到馬桶後你以為會進化糞池，但其實是送到某個人家裡去供他研究 -->
+---
+layout: two-cols
+---
+
+## Meta
+- 管理人力不足，協同造假依舊盛行
+- 高層不重視
+- 為了迎合特定元首，迎合他國政策
+::right::
+<img src="/img/2026-06-09-14-51-50.png" class="max-w-full max-h-full object-contain" />
+
+<style>
+  img{
+    width:60%;
+  }
+</style>
+
+<!--
+談劍橋分析、緬甸軍政府轉移
+-->
+
+---
+layout: two-cols
+---
+
+## 緬甸政變
+
+::right::
+[![Hatebook](/img/2026-06-09-17-45-03.png)](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)
+<!-- 緬甸民主轉型期間，Facebook 是許多人理解新聞與政治的入口；當仇恨言論、謠言與民族主義宣傳在平台上快速擴散時，線上的資訊流就就轉化成線下暴力。 -->
+---
+layout: fact
+---
+
+## 無作為也是一種作為
+
 
 ---
 layout: quote
@@ -293,7 +350,14 @@ transition: slide-up
 
 We automatically collect information related to when and how you used our Services... For example, when using LINE, the contents that you posted, and texts, images, videos and sounds of the messages that you sent are sent via our server.
 
+我們會自動收集有關您何時以及如何使用我們服務的資訊⋯⋯例如，當使用 LINE 時，您透過我們的伺服器發佈的內容、文字、圖片、影片和聲音訊息。
+
+<v-click>
+
 > 翻譯年糕：我們蒐集 Meta data
+
+</v-click>
+
 ---
 layout: quote
 transition: slide-up
@@ -305,8 +369,13 @@ We may collect the location information of your device... Furthermore, in certai
 
 Even when you do not accept sending your location information, we may estimate your approximate location by using information **such as your IP address**.
 
-> 翻譯年糕：我們比你媽都還清楚知道你在哪，定位關了也可以透過你的 IP 反推位置
+我們可能會收集您裝置的位置資料⋯⋯此外，在某些國家或地區(日本、台灣、泰國)，當我們向您提供客製化內容或廣告時，例如您所在區域附近的本地新聞，我們可能會單獨要求您一般性地提供您的位置資料並允許我們使用此類資料。
 
+即使您不接受傳送您的位置資料，我們也可能會使用例如您的 IP 位址等資料來估計您的大致位置。
+<v-click>
+
+> 翻譯年糕：我們比你媽都還清楚知道你在哪，定位關了也可以透過你的 IP 反推位置
+</v-click>
 ---
 layout: quote
 transition: slide-up
@@ -316,7 +385,12 @@ transition: slide-up
 
 Unless you request the deletion of your account, in principle, we will retain most of your information. Once we receive your request to delete your account, we will delete your information according to Applicable Laws and internal rules after retaining such information for a given period of time.
 
+除非您請求刪除您的帳戶，原則上，我們將保留您的大部分資料。一旦我們收到您刪除帳戶的請求，我們將在保留此類資料一段時間後，根據適用法律和內部規則刪除您的資料。
+<v-click>
+
 > 翻譯年糕：你用 LINE 傳送過所有東西存起來，直到永遠。照片會「過期」只是做給你看的，過期也不代表資料從伺服器上消失
+
+</v-click>
 ---
 layout: quote
 ---
@@ -325,7 +399,13 @@ layout: quote
 
 We may use tags and modules containing cookies and third-party software development kit (SDK) for fulfilling the purposes described in this Policy. With regard to your Personal Data that is processed by a third-party through a module provided by such third party, the privacy policy of such third party will apply.
 
+我們可能會使用包含 cookie 和第三方軟體開發工具包（SDK）的標籤和模組，以實現本政策中描述的目的。關於透過第三方提供的模組由第三方處理的您的個人資料，將適用該第三方的隱私政策。
+
+<v-click>
+
 > 翻譯年糕： LINE 會嵌入其他公司的程式碼，這些程式碼的功能可能會用來蒐集你的資料，會怎麼使用 LINE 不會負責
+
+</v-click>
 ---
 title: Terms of Service; Didn’t Read
 image: /img/2026-06-09-14-36-13.png
@@ -341,7 +421,7 @@ url: https://tosdr.org/en/about
 - generativve adversarial networks gans(生成對抗式網路)
 - reinforcement learning(強化式學習)
 
-![generativve adversarial networks gans](/img/2026-06-06-18-00-29.png)
+<!-- ![generativve adversarial networks gans](/img/2026-06-06-18-00-29.png) -->
 
 ---
 
@@ -472,6 +552,31 @@ layout: two-cols-header
       - 根據事實，但斷章取意，惡意誤導的訊息
 
 ---
+layout: section
+---
+
+## 台灣的課題
+
+---
+layout: two-cols-header
+---
+
+## 晶片很賺錢，也急需擴張規模...
+::left::
+
+- 反紫光運動的成功
+- 
+::right::
+
+![數位國土保戰](./public/img/2026-06-09-21-49-06.png)
+
+<style>
+  img{
+width:70%  
+  }
+
+</style>
+---
 layout: image
 image: /img/2026-06-06-18-07-50.png
 backgroundSize: contain
@@ -488,7 +593,7 @@ layout: two-cols-header
 ::left::
 
 - 影片討論內容：領時薪比月薪高，打工當道？為何他們選擇非典型工作？
-  - 這種留言區你會加入討論嗎？
+  - 這種留言區要怎麼正常討論？
 ::right::
 ![AI 洗地干擾](/img/pcomment.png)
 ---
@@ -535,58 +640,8 @@ image: /img/2026-06-09-17-03-16.png
 backgroundSize: contain
 ---
 ---
-layout: fact
----
-
-## 社群媒體、AI 造成的紛亂
-
-<v-clicks>
-
-既然情況那麼糟，那大家採取了什麼行動？
-
-<s>應該有做為的人好像都都不太在乎，哈哈</s>
-
-</v-clicks>
----
-layout: two-cols
----
-
-- 管理人力不足，協同造假依舊盛行
-- 高層不重視
-- 為了迎合特定元首，迎合他國政策
-::right::
-<img src="/img/2026-06-09-14-51-50.png" class="max-w-full max-h-full object-contain" />
-
-<style>
-  img{
-    width:60%  
-  }
-</style>
-
-<!--
-談劍橋分析、緬甸軍政府轉移
--->
-
----
-layout: two-cols
----
-
-## 緬甸政變
-
-::right::
-[![Hatebook](/img/2026-06-09-17-45-03.png)](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)
-<!-- 緬甸民主轉型期間，Facebook 是許多人理解新聞與政治的入口；當仇恨言論、謠言與民族主義宣傳在平台上快速擴散時，線上的資訊流就就轉化成線下暴力。 -->
----
-layout: fact
----
-
-## 無作為也是一種作為
-
----
 layout: two-cols-header
 ---
-
-
 ## 軟體開發生態受到挑戰
 ::left::
 - AI 很快的挖出一堆漏洞
@@ -650,7 +705,7 @@ layout: section
 - 美式
   - 自由主義，容易放任監控式資本主義
 - 中國
-  - 整府立法擴權
+  - 政府立法擴權
     - 中共網絡安全法
 - 歐盟
   - 立法限制科技公司行為，但實行成果仍需努力
