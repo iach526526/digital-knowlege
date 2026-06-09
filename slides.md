@@ -38,10 +38,17 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
+layout: fact
+---
 
-## 關於本文
-- 2025 出版的書選出來的文章
-- 討論一篇 2018 探討人工智慧論文的想法
+## TL;DR 課本原文
+- 2025 出版的書討論一篇 2018 發布的人工智慧論文
+
+<v-clicks>
+
+~~學用落差就是這樣產生的，看看大家在學什麼東西~~
+
+</v-clicks>
 ---
 
 ## 現在的世界
@@ -49,19 +56,35 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <v-clicks depth="2" every="1">
 
 
+- 更多零日漏洞
 
 - 一種新的經濟模式
-<!-- 注意力經濟 -->
-- 兩種關鍵原料
-<!-- 晶片和電，隨便湊好聽就好，還沒想到  -->
+
+- 兩個關鍵資源
+
 - 三大數位治理區塊
-<!-- 歐盟,美國,中國  -->
-- 四個雲端軍火商
-<!-- Amazon, Google, Microsoft, Meta, Apple,甲骨文，依照我的喜好刪減 -->
-<!-- 缺 五六七，還沒想到 -->
+
+- 四個虛擬戰場
+
+- 五種看不見的代價
+
+- 六十億上網人口
+
+- 七家公司決定未來
+
 - 八十億人爭資源
 </v-clicks>
 
+<!-- 
+0. 
+1. 注意力經濟
+2. 水和電
+3. 歐盟,美國,中國
+4. 晶片、雲端基礎建設、模型、輿論
+5. 隱私、注意力、選擇權、公共討論、環境成本
+6. 好像是 55 億的樣子 
+7. Microsoft,Nvidia,Apple, Alphabet, Amazon ,Meta, Tesla 
+8. 就...真的有這麼多人-->
 ---
 layout: default
 class: quote-page
@@ -183,14 +206,14 @@ url: https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-hav
 layout: two-cols-header
 ---
 
-## AI 摘要讓我更快的拿到資料？這不好嗎？
+## AI 摘要讓我更快的拿到資料，這不好嗎？
 
 ::left::
 - 每個人陷入語言模型建構的平行世界
 - 作者想盡力傳達的「形式」消失了
 - 簡化閱讀、去掉脈絡 => 思考退化
 - 到底是誰在使用知識，我們還有「主體性」？
-- 公共資源消失，世界的交流停留在 2023
+- 公共資源消失，網路上的真實對話停留在 2023
 
 ::right::
 
@@ -312,25 +335,15 @@ url: https://tosdr.org/en/about
 
 ---
 
-## 三種策略
-- 美式
-  - 自由主義，容易放任監控式資本主義
-- 中國
-  - 整府立法擴權
-    - 中共網絡安全法
-- 歐盟
-  - 立法限制科技公司行為，提供使用者最高的選擇權限
-  - 推行自由軟體(Free software)
-  - 訂立 GDPR
+## 什麼是大語言模型？ 
+
+- supervised learning(監督式學習)
+- generativve adversarial networks gans(生成對抗式網路)
+- reinforcement learning(強化式學習)
+
+![generativve adversarial networks gans](/img/2026-06-06-18-00-29.png)
 
 ---
-
-## GDPR 很棒，但...
-
-- 某些公司出於惡意過度遵守規定，造成使用者不便
-- 讓隱私責任轉嫁給使用者，並讓暗黑模式（dark mode） 成為常態
----
-
 
 ## 語言模型有個性？
 
@@ -395,16 +408,6 @@ url: https://tosdr.org/en/about
 
 ---
 
-## 什麼是大語言模型？ 
-
-- supervised learning(監督式學習)
-- generativve adversarial networks gans(生成對抗式網路)
-- reinforcement learning(強化式學習)
-
-![generativve adversarial networks gans](/img/2026-06-06-18-00-29.png)
-
----
-
 ![The Meaning of Shoggoth AI Memes](/img/2026-06-06-17-50-35.png)
 
 ---
@@ -428,6 +431,33 @@ backgroundSize: contain
 - 無力感增加
 - 逆來順受的事件應變
 
+---
+layout: image
+image: /img/2026-06-09-18-14-35.png
+backgroundSize: contain
+title: 一切都基於電、水
+---
+---
+layout: two-cols-header
+---
+
+## 《雲過無雨》
+::left::
+
+- 2020 台積電在美國亞利桑那州（這裡是沙漠）全資蓋晶圓廠
+- 對周邊環境有什麼影響？
+- 周圍居民怎麼想？
+
+
+::right::
+
+![](/img/2026-06-09-18-28-49.png)
+
+<!-- 為了符合政策補貼、靠近其他供應商做出的選擇。水值得用工程解決的缺點（像是再生水）。再生水又要用一堆額外用電和化學處理 。
+
+ AI 不只是大語言模型，它也會改變現實世界的資源分配。
+
+-->
 ---
 
 ## 我們面臨著什麼樣的假資訊議題？
@@ -486,18 +516,154 @@ layout: fact
 ---
 
 ## 網路沒有國界。誰想讓我們減少討論？
+
+
+---
+layout: two-cols
+---
+
+![网络舆论引导](/img/2026-06-09-17-00-39.png)
+::right::
+![網路與輿論引導（台灣）](/img/2026-06-09-16-59-32.png)
+
+<!-- 還是中共領先我們 20 年 -->
+
+---
+title: 換成「輿論 操控」這組關鍵字
+layout: image
+image: /img/2026-06-09-17-03-16.png
+backgroundSize: contain
+---
+---
+layout: fact
+---
+
+## 社群媒體、AI 造成的紛亂
+
+<v-clicks>
+
+既然情況那麼糟，那大家採取了什麼行動？
+
+<s>應該有做為的人好像都都不太在乎，哈哈</s>
+
+</v-clicks>
+---
+layout: two-cols
+---
+
+- 管理人力不足，協同造假依舊盛行
+- 高層不重視
+- 為了迎合特定元首，迎合他國政策
+::right::
+<img src="/img/2026-06-09-14-51-50.png" class="max-w-full max-h-full object-contain" />
+
+<style>
+  img{
+    width:60%  
+  }
+</style>
+
+<!--
+談劍橋分析、緬甸軍政府轉移
+-->
+
+---
+layout: two-cols
+---
+
+## 緬甸政變
+
+::right::
+[![Hatebook](/img/2026-06-09-17-45-03.png)](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)
+<!-- 緬甸民主轉型期間，Facebook 是許多人理解新聞與政治的入口；當仇恨言論、謠言與民族主義宣傳在平台上快速擴散時，線上的資訊流就就轉化成線下暴力。 -->
+---
+layout: fact
+---
+
+## 無作為也是一種作為
+
+---
+layout: two-cols-header
+---
+
+
+## 軟體開發生態受到挑戰
+::left::
+- AI 很快的挖出一堆漏洞
+  - 最近一週一個 Linux 大漏洞
+- AI agent 提出了很多看似有用的 Pull Request 讓人類維護者 review
+  - 通常我們希望先處理真實人類的問題
+::right::
+
+![開源生態系](/img/CUP.png)
+
+---
+
+## 來不及講了，但你可以來研討會瞭解：）
+[![COSUCP](/img/2026-06-09-18-07-52.png)](https://coscup.org/2026/)
+
+---
+layout: image
+image: /img/2026-06-09-16-50-04.png
+backgroundSize: contain 
+title: Linux 漏洞連環爆
+---
+
+---
+title: openClaw 代理 MJ Rathbun 寫 blog 怒罵人類拒絕他的程式變更請求
+image : /img/2026-06-09-16-20-33.png
+url: https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html
+layout: image-link
+backgroundSize: contain
+---
+---
+title: Anthropic警告AI可在數小時內打造漏洞攻擊程式
+image : /img/2026-06-09-16-34-48.png
+url: https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-gatekeeping-in-open-source-the-scott-shambaugh-story.html
+layout: image-link
+backgroundSize: contain
+---
+
+---
+layout: image-link
+image: /img/2026-06-09-16-32-17.png
+---
+
+
 ---
 layout: section
 ---
 
-## 就是因為網路沒有管制才會這樣？
+## 就是因為沒有管制才會這樣？
 
 <v-clicks>
 
-於是中介法出現了
+那...試著管管看吧...
 
 </v-clicks>
 
+
+---
+
+
+## 三種策略
+- 美式
+  - 自由主義，容易放任監控式資本主義
+- 中國
+  - 整府立法擴權
+    - 中共網絡安全法
+- 歐盟
+  - 立法限制科技公司行為，但實行成果仍需努力
+  - 提供使用者最高的選擇權限
+  - 推行自由軟體(Free software)
+  - 訂立 GDPR
+
+---
+
+## GDPR 很棒，但...
+
+- 某些公司出於惡意過度遵守規定，造成使用者不便
+- 讓隱私責任轉嫁給使用者，並讓暗黑模式（dark mode） 成為常態
 ---
 
 ## 長化短說數位中介服務法
@@ -542,14 +708,17 @@ layout: image
 ---
 
 ## 在這個時代，我們可以怎麼做？
+<v-clicks>
 
-- 大部分的使用者要清醒一點，主動要求拿回主控權
+- 大部分的人要清醒一點，主動要求拿回主控權
 - 建立閱聽白名單
   - RSS！！
 - 動腦思考（雖然堅信自己不會被影響的人往往是最容易被影響的）
 - 用錢投票
   - 支持你覺得有幫助的軟體、媒體、軟體服務
 
+
+</v-clicks>
 ---
 layout: two-cols
 ---
@@ -566,9 +735,9 @@ title: 沒有人
 
 <div class="text-center text-4xl leading-tight">
   <VSwitch>
-    <template #1>沒有人會願意做這些付出</template>
+    <template #1>沒有人會願意付出這些</template>
     <template #2>
-      <div><s>沒有人會願意做這樣的付出</s></div>
+      <div><s>沒有人會願意做付出這些</s></div>
       <h2><div>你就是沒有人！</div></h2>
     </template>
   </VSwitch>
@@ -587,6 +756,7 @@ title: 沒有人
 - [2025 年的台灣，一個網路平台，上頭有多少主管機關？ ](https://moztw.org/events/service-regulator/)
 - [數位中介服務提供者的時代責任？專家學者觀點｜白廷奕](https://plainlaw.me/posts/expert-opinion-for-disa)
 - [WiWik.Blog:我同意](https://www.wiwi.blog/blog/line-privacy-policy)
+- [This company killed open source](https://www.youtube.com/watch?v=bpqFZBWcStU)
 ## 閱讀更多
 [維基百科：注意力經濟](https://en.wikipedia.org/wiki/Attention_economy)
-
+[報導者：假訊息、仇恨言論如何傷害民主 圍繞羅興亞人的資訊戰：當臉書變失控巨獸，緬甸政府反成最大贏家？](https://www.twreporter.org/a/asia-disinformation-fake-news-myanmar-government-facebook)
