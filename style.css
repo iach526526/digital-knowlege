@@ -1,0 +1,30 @@
+@import url("https://font.emtech.cc/css/975HazyGo/400");
+@import url("https://font.emtech.cc/css/JetBrainsMono/400");
+
+.slidev-layout {
+  font-family: "JetBrains Mono", "975HazyGo", ui-monospace, monospace, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.slidev-layout code{
+  font-size: 1.2rem;
+}
+
+/* 標題也一起套用 */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout blockquote,
+.slidev-layout td,
+.slidev-layout th,
+.slidev-layout span,
+.slidev-layout div {
+  font-family: inherit;
+  font-weight: 400;
+}
