@@ -25,7 +25,8 @@ comark: true
 # 人工智慧與數位時代下的媒體與資訊素養
 
 
-應數 1B 陳奕其
+應數 1B 陳奕其 蘇彥儒 陳亮羲
+應數 1A 翁育宏
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/iach526526/digital-knowlege" target="_blank" class="slidev-icon-btn">
@@ -36,7 +37,91 @@ comark: true
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
-
+---
+layout: image
+image: /img/4.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/5.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/6.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/7.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/8.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/9.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/10.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/11.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/12.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/13.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/14.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/15.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/16.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/17.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/18.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/19.jpg
+backgroundSize: contain
+---
+---
+layout: image
+image: /img/20.jpg
+backgroundSize: contain
+---
 ---
 layout: fact
 ---
