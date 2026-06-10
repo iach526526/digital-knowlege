@@ -42,7 +42,7 @@ layout: fact
 ---
 
 ## TL;DR 課本原文
-- 2025 出版的書討論一篇 2018 發布的人工智慧論文
+2025 出版的書討論一篇 2018 發布的人工智慧論文
 
 <v-clicks>
 
@@ -50,8 +50,12 @@ layout: fact
 
 </v-clicks>
 ---
+layout: two-cols-header
+---
 
 ## 現在的世界
+
+::left::
 
 <v-clicks depth="2" every="1">
 
@@ -59,32 +63,56 @@ layout: fact
 - 更多零日漏洞
 
 - 一種新的經濟模式
+  - 注意力經濟
 
 - 兩個關鍵資源
+  - 水＆電
 
 - 三大數位治理區塊
+  - 歐盟、美國、中國
 
 - 四個虛擬戰場
+  - 晶片、雲端基礎建設、模型、輿論
+
+</v-clicks>
+
+::right::
+
+<v-clicks depth="2" every="1">
 
 - 五種看不見的代價
+  - 隱私、注意力、選擇的權利、公共討論、環境
 
 - 六十億上網人口
 
 - 七家公司左右未來
+  - Microsoft、Nvidia、Apple、Alphabet、Amazon、Meta、Tesla 
 
 - 八十億人爭資源
 </v-clicks>
+<style>
+  .slidev-layout {
+  font-family: "JetBrains Mono", "975HazyGo", ui-monospace, monospace, sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+li>ul>li
+{
+  color:#6d6d6d;
+}
+
+</style>
 
 <!-- 
-0. zero day
-1. 注意力經濟
-2. 水和電
-3. 歐盟,美國,中國
-4. 晶片、雲端基礎建設、模型、輿論
-5. 隱私、注意力、選擇的權利、公共討論、環境
-6. 好像是 55 億的樣子 
-7. Microsoft,Nvidia,Apple, Alphabet, Amazon ,Meta, Tesla 
-8. 就...真的有這麼多人-->
+1. zero day
+2. 注意力經濟
+3. 水和電
+4. 歐盟,美國,中國
+5. 晶片、雲端基礎建設、模型、輿論
+6. 隱私、注意力、選擇的權利、公共討論、環境
+7. 好像是 55 億的樣子 
+8. Microsoft,Nvidia,Apple, Alphabet, Amazon ,Meta, Tesla 
+9. 就...真的有這麼多人-->
 ---
 layout: default
 class: quote-page
@@ -182,18 +210,21 @@ blockquote {
 
 <!-- 讓 Google AI 摘要回答為什麼要上國文課。沒什麼特別的意思，就只是因為在國文報告想衝擊大家的思想體驗 -->
 ---
-layout: image
+layout: image-link
 image: /img/2026-06-06-13-50-37.png
-backgroundSize: contain 
+backgroundSize: contain
 title: zero-click-chart
+url: https://pressgazette.co.uk/media-audience-and-business-data/media_metrics/how-google-ai-overviews-is-fuelling-zero-click-searches-for-top-publishers/
 ---
 
+<!-- 每日郵報的零點擊搜尋發生比率 -->
 ---
 
 ## stack overflow decline
 
 ![stack overflow decline](/img/2026-06-06-17-54-26.png)
 
+<!-- 著名問答網站的活躍用戶雪崩下降 -->
 ---
 title: 機器人造成網際網路上 HTTP 流量請求一半以上
 image: /img/2026-06-09-11-43-07.png
@@ -202,6 +233,7 @@ backgroundSize: contain
 url: https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year
 ---
 
+<!-- Cludflare 也表示網路上的人類 HTTP 流量已被 AI agent 超越。那這有什麼影響？ -->
 ---
 layout: two-cols-header
 ---
@@ -217,9 +249,9 @@ layout: two-cols-header
 
 ::right::
 
-![](/img/2026-06-09-14-06-52.png)
+![Big tech 灌食 AI](/img/2026-06-09-14-06-52.png)
 
-<!-- 語言模型也是有個性的：討論 GPT, Gemini 對話的語氣和個性 -->
+<!-- AI 很方便，但其實有一部分的原因也是科技公司強推造成的。問：台下有沒有人知道除了 Google 以外的搜尋引擎，或是有誰不用 Google  -->
 ---
 title: Google AI 搜尋強制上路，DuckDuckGo 安裝量一週衝高 30%：讓使用者自己決定要多少 AI
 layout: image-right
@@ -228,20 +260,29 @@ backgroundSize: contain
 ---
 
 ## [把選擇權交給使用者](https://www.blocktempo.com/duckduckgo-installs-surge-thirty-percent-google-ai-search-force-fed-backlash/)
+
+### 搜尋引擎
 - DuckDuckGo
 - kagi
-- Brave Search
+- ~~Brave Search~~
+<!-- 我沒那麼喜歡，因為他會強推自己的加密貨幣服務 -->
 - Startpage
 - Whoogle (selfhost)
 - SearXNG (selfhost)
 
+### 瀏覽器
+- FireFox
+- Vivaldi
+- Heilum
+
+<!-- 有的，還是有其他方案。瀏覽器和搜尋引擎是兩個不同的東西 -->
 ---
 layout: center
 ---
 
 ## 你認識的網際網路是什麼樣子？
 
-![open web](./public/img/2026-06-09-21-36-20.png)
+![open web](/img/2026-06-09-21-36-20.png)
 
 ---
 layout: image
@@ -265,7 +306,23 @@ image: /img/2026-06-09-12-22-43.png
 url: https://www.businessinsider.com/brazil-iphone-prison-2013-4
 ---
 
+---
+layout: image-link
+image : /img/2026-06-10-10-12-03.png
+backgroundSize: 30em 70%
+---
 
+## long tail theory
+
+<style>
+
+  body{
+    background-ccolor:#FFFF;
+
+}
+</style>
+
+<!-- Chris Anderson 提出，現在世界內容消費呈現長尾，短頭的現象。當然，也有蠻多人被關在高牆花園所以只有前三大網站 -->
 ---
 image: /img/my-browser-history.png
 title: 我的瀏覽紀錄分析
@@ -273,6 +330,7 @@ layout: image
 backgroundSize: contain
 ---
 
+<!-- 這是我的瀏覽器 2026 5 月的統計，大致符合長尾短頭的趨勢 -->
 ---
 layout: two-cols
 ---
@@ -288,6 +346,7 @@ width:89%
 
 </style>
 
+<!-- 讓我們來了解一下大家平常用的網路和雲端平台的現況 -->
 ---
 transition: slide-up
 layout: two-cols-header
@@ -300,7 +359,7 @@ layout: two-cols-header
   - 對於所有的免費服務，你就是廠商最賺錢的工具
 
 ::right::
-![click heatmap dashboard](./public/img/2026-06-09-21-14-10.png)
+![click heatmap dashboard](/img/2026-06-09-21-14-10.png)
 
 
 <!-- 講講微軟,line,Google,facebook 。講難聽點就是你拉出來的屎進到馬桶後你以為會進化糞池，但其實是送到某個人家裡去供他研究 -->
@@ -311,9 +370,10 @@ layout: two-cols
 ## Meta
 - 管理人力不足，協同造假依舊盛行
 - 高層不重視
-- 為了迎合特定元首，迎合他國政策
+- 為了擴展商業版圖，迎合特定元首政策
+- 把當地罰金當成營運成本
 ::right::
-<img src="/img/2026-06-09-14-51-50.png" class="max-w-full max-h-full object-contain" />
+<img src="/img/2026-06-09-14-51-50.png" class="max-w-full max-h-full object-contain" alt="社群帝國的那些人"/>
 
 <style>
   img{
@@ -322,6 +382,7 @@ layout: two-cols
 </style>
 
 <!--
+旗下產品還有 Thread, IG, Whatsapp
 談劍橋分析、緬甸軍政府轉移
 -->
 
@@ -329,13 +390,71 @@ layout: two-cols
 layout: two-cols
 ---
 
-## 緬甸政變
+## 劍橋分析
+- 針對用戶投放特定貼文改變投票意願
+- 2016 幫助川普成功當選總統
 
 ::right::
+
+[![questioned Alexander Nix, chief executive of Cambridge Analytica](/img/2026-06-10-15-32-38.png)](https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html)
+<!-- 不是說反對廣告，但臉書本身的平台運作是有能力讓你完全看不到另一個候選人的聲音或作為，甚至是只會看到負面的事情，這和傳統看板廣告或新聞不一樣 -->
+
+---
+layout: two-cols-header
+---
+
+## 菲律賓介選
+::left::
+- 菲律賓總統當選人杜特帝用臉書操控民意
+  - 將政治粉專冒充成可信的資訊來源
+  - 監視人民
+  - 鼓勵行刑隊
+
+<v-click>
+
+- Maria Ressa 得到諾貝爾和平獎
+- Rodrigo Duterte 被國際刑事法院拘留（「違反人類罪」（毒品戰爭濫殺））
+</v-click>
+
+
+::right::
+![A Thousand Cuts ](/img/2026-06-10-14-55-04.png)
+
+
+
+<style>
+  img{
+    width:70%;
+  }
+.two-cols-header {
+  column-gap: 3em;
+}
+</style>
+<!-- 用臉書當作民意操控工具，在菲律賓也有一起，有關菲律賓總統 Rodrigo Duterte 。 現在其實已經不是那個資訊被發行需要被層層審視的時代了，過去我們有專業的編輯、記者、法律控管這些實體媒體，但在臉書上都不會有這些東西，很多人還是把臉書的某些粉專當成主要的新聞來源。-->
+---
+layout: two-cols-header
+---
+
+## 緬甸政變
+
+::left::
+
+- 在緬甸，Facebook 幾乎等同於網路入口
+- 軍方、民族主義粉專、極端佛教僧侶利用 Facebook 散播反穆斯林、反羅興亞人的仇恨言論
+- 2017 年軍方在若開邦發動「清剿行動」
+  - 羅興亞人遭到屠殺、強暴、村莊焚毀
+  - 超過 75 萬人逃往孟加拉
+
+::right::
+
 [![Hatebook](/img/2026-06-09-17-45-03.png)](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)
-<!-- 緬甸民主轉型期間，Facebook 是許多人理解新聞與政治的入口；當仇恨言論、謠言與民族主義宣傳在平台上快速擴散時，線上的資訊流就就轉化成線下暴力。 -->
+
+<!--
+在美國，Facebook 影響的是民主選舉；在菲律賓，Facebook 成為威權民粹的工具；但在緬甸，Facebook 的失靈直接連到族群清洗。
+-->
 ---
 layout: fact
+transition: slide-up
 ---
 
 ## 無作為也是一種作為
@@ -564,11 +683,23 @@ layout: two-cols-header
 ## 晶片很賺錢，也急需擴張規模...
 ::left::
 
-- 反紫光運動的成功
-- 
+<v-click  depth="2" every="1">
+
+- 中國紫光集團大舉投資台灣半導體產業
+
+<!--  -->
+- 除了錢之外，還有什麼需要擔心的？
+  - 技術外流
+  - 人才流動
+  - 供應鏈被重組
+
+
+#2015 反紫光運動
+</v-click>
+
 ::right::
 
-![數位國土保戰](./public/img/2026-06-09-21-49-06.png)
+![數位國土保戰](/img/2026-06-09-21-49-06.png)
 
 <style>
   img{
@@ -756,32 +887,62 @@ layout: image
 
 </v-clicks>
 <!--  -->
+
+---
+
+![Multistakeholder Model](/img/2026-06-10-16-11-59.png)
 ---
 
 ## 多方利害關係人模型
 
+- 政府
+  - 法律、公共責任、基本權利保障
+- 平台與企業
+  - 技術實作、資料透明、風險控管
+- 公民社會
+  - 監督、倡議、受害者經驗
+- 技術社群
+  - 開源工具、資安、標準與可驗證性
+- 學界與媒體
+  - 研究、查證、公共討論
+
+> 讓不同領域的人一起來談，達成共識
 ---
 
-## 在這個時代，我們可以怎麼做？
+## 在這樣的時局，有什麼我可以做的事？
 <v-clicks>
 
 - 大部分的人要清醒一點，主動要求拿回主控權
 - 建立閱聽白名單
   - RSS！！
 - 動腦思考（雖然堅信自己不會被影響的人往往是最容易被影響的）
+- 多多表態，建立集體認知
 - 用錢投票
   - 支持你覺得有幫助的軟體、媒體、軟體服務
 
 
 </v-clicks>
+<!-- 資料存在哪？有沒有放在中立國 -->
 ---
 layout: two-cols
 ---
 
-## 
+## g0v：用開源協作補民主的洞
+- 台灣發起的公民科技社群
+- 專注於公民科技的開發
 
 ::right::
 ![g0v](/img/g0v-SITCON-2024.jpg)
+
+---
+
+## 你可能聽過的專案
+
+- 萌典
+- 中央政府預算視覺化
+- Cofacts 真的假的
+- 公民攝影記者證產生器
+
 
 ---
 layout: center
@@ -812,6 +973,13 @@ title: 沒有人
 - [數位中介服務提供者的時代責任？專家學者觀點｜白廷奕](https://plainlaw.me/posts/expert-opinion-for-disa)
 - [WiWik.Blog:我同意](https://www.wiwi.blog/blog/line-privacy-policy)
 - [This company killed open source](https://www.youtube.com/watch?v=bpqFZBWcStU)
+---
+
 ## 閱讀更多
-[維基百科：注意力經濟](https://en.wikipedia.org/wiki/Attention_economy)
-[報導者：假訊息、仇恨言論如何傷害民主 圍繞羅興亞人的資訊戰：當臉書變失控巨獸，緬甸政府反成最大贏家？](https://www.twreporter.org/a/asia-disinformation-fake-news-myanmar-government-facebook)
+
+- [維基百科：注意力經濟](https://en.wikipedia.org/wiki/Attention_economy)
+- [報導者：假訊息、仇恨言論如何傷害民主 圍繞羅興亞人的資訊戰：當臉書變失控巨獸，緬甸政府反成最大贏家？](https://www.twreporter.org/a/asia-disinformation-fake-news-myanmar-government-facebook)
+- [專訪前「劍橋分析」業務總監：只要臉書的生意繼續，民主就有危機](https://www.twreporter.org/a/information-warfare-business-interview-cambridge-analytica-brittany-kaiser)
+- [Zei:Open Source Alternatives ](https://www.youtube.com/watch?v=tumUlLaC9cY)
+- [SITCON 2026｜從網址之爭，帶你走進網路治理世界](https://www.youtube.com/watch?v=utOnFcoCbl0)
+- [從網址之爭，帶你走進網路治理世界 - Arnoldsky](https://hackmd.io/@SITCON/2026/%2FrJRMJZic-x)
