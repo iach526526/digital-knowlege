@@ -336,7 +336,8 @@ layout: two-cols-header
 
 ![Big tech 灌食 AI](/img/2026-06-09-14-06-52.png)
 
-<!-- AI 很方便，但其實有一部分的原因也是科技公司強推造成的。問：台下有沒有人知道除了 Google 以外的搜尋引擎，或是有誰不用 Google  -->
+<!-- ，看過太多人把 AI 的話在台上唸出來了，這些人就是 AI 的肉體 agent 
+AI 很方便，但其實有一部分的原因也是科技公司強推造成的。問：台下有沒有人知道除了 Google 以外的搜尋引擎，或是有誰不用 Google  -->
 ---
 title: Google AI 搜尋強制上路，DuckDuckGo 安裝量一週衝高 30%：讓使用者自己決定要多少 AI
 layout: image-right
@@ -739,7 +740,7 @@ layout: two-cols-header
 
 <!-- 為了符合政策補貼、靠近其他供應商做出的選擇。水值得用工程解決的缺點（像是再生水）。再生水又要用一堆額外用電和化學處理 。
 
- AI 不只是大語言模型，它也會改變現實世界的資源分配。
+ AI 它也會改變現實世界的資源分配和社會問題。
 
 -->
 ---
@@ -755,6 +756,7 @@ layout: two-cols-header
   - Maliinformation
       - 根據事實，但斷章取意，惡意誤導的訊息
 
+<!-- 在 AI 出現後這一切的成本變的更低了，以前只能灑一些很爛的釣魚信，現在魚叉式釣魚很簡單 -->
 ---
 layout: section
 ---
@@ -887,6 +889,14 @@ url: https://crabby-rathbun.github.io/mjrathbun-website/blog/posts/2026-02-11-ga
 layout: image-link
 backgroundSize: contain
 ---
+---
+title: matplotlib
+image: /img/matplot.png
+layout: image
+backgroundSize: contain
+---
+
+
 ---
 title: Anthropic警告AI可在數小時內打造漏洞攻擊程式
 image : /img/2026-06-09-16-34-48.png
